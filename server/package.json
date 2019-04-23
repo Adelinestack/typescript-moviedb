@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "@types/async": "^2.4.1",
+    "@types/body-parser": "^1.17.0",
+    "@types/express": "^4.16.1",
+    "@types/jest": "^24.0.11",
+    "@types/node": "^11.13.7",
+    "ts-node-dev": "^1.0.0-pre.32",
+    "typescript": "^3.4.4"
+  },
+  "scripts": {
+    "start:dev": "API_KEY=c06055f57e454430ce3a469ce1c5e899 ts-node-dev --respawn --no-notify index.ts"
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "include": [
+    "**/*.ts"
+  ]
+}
